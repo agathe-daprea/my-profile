@@ -1,0 +1,98 @@
+/* Colors and Fonts */
+body{
+	background-image: url(images/psg.png); 
+	color: 1F1A38;
+	font-family: 'Shadows Into Light';
+	font-size: 20px;
+	background-size: 980px;
+	font-weight: 600;
+}
+
+h1,h2,h3{
+	font-family: 'Source Sans Pro';
+}
+
+h1{
+	color:004170;
+	font-size: 32px;
+	font-weight: 900;
+	letter-spacing: 1.5px;
+}
+h2{
+	color: DA291C;
+	font-size: 25px;	
+	font-weight: 800;
+	letter-spacing: 2px;
+}
+a{
+	text-decoration: none;
+	color: CEAB5D;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	transition: : 0.3s;
+}
+a:hover {
+	color: 004170;
+}
+
+/* Custom Design with Class (99%)*/
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white{
+	background-color: rgba(255,255,255,0.8);
+	padding: 40px;
+	box-shadow: 0px 20px 30px rgba(1,66,106,0.4);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle{
+	border-radius: 50%;
+	width: 260px;
+	height: 320px;
+}
+.btn-purple{
+	background-color: CEAB5D; 
+	color: rgb(1,1,1);
+	padding: 13px 20px;
+	border-radius: 4px;
+}
+.btn-purple:hover {
+	background-color: 004170;
+	color: white;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 50px;
+}
+.list-inline i:hover {
+	color: lack;
+}
+
+/* Custom Design with ID (01%)*/
+
+#intro p{
+	margin-bottom: 40px
+}
+
+@media (max-width: 720px){
+	.container{
+		width: 500px;
+	}
+}
+@media (max-width: 540px){
+	.container{
+		width: 300px;
+	}
+}
