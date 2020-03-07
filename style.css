@@ -1,11 +1,12 @@
 /* Colors and Fonts */
 body{
-	background-image: url(images/psg.png); 
+	background-image: url(images/psg1.jpg); 
 	color: 1F1A38;
 	font-family: 'Shadows Into Light';
 	font-size: 20px;
-	background-size: 980px;
+	background-size: 1750px;
 	font-weight: 600;
+	background-attachment: fixed;
 }
 
 h1,h2,h3{
@@ -28,7 +29,7 @@ a{
 	text-decoration: none;
 	color: CEAB5D;
 	font-weight: bold;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Source Sans Pro';
 	font-size: 15px;
 	transition: : 0.3s;
 }
@@ -77,7 +78,7 @@ a:hover {
 	font-size: 50px;
 }
 .list-inline i:hover {
-	color: lack;
+	color: black;
 }
 
 /* Custom Design with ID (01%)*/
